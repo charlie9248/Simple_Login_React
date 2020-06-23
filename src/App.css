@@ -1,0 +1,60 @@
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+}
+
+body {
+  font-family: "Oswald", sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+button[type="submit"] {
+  width: 80% !important;
+  display: flex;
+  justify-content: center;
+}
+
+.check {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.btn-style {
+  border: 1px solid gray;
+  margin-top: 8px !important;
+  border-radius: 0.3rem;
+  transition: all 1s ease-in-out;
+}
+
+.btn-style:hover {
+  background: gray;
+  color: var(--mainDark) !important;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+}
+
+.alert {
+  padding: 0.5rem 0.5rem;
+  color: white;
+  width: 90%;
+  margin: 1rem auto;
+  border-radius: 0.4rem;
+}
+
+.alert-danger {
+  background: red;
+}
+
+.alert-success {
+  background: green;
+}
